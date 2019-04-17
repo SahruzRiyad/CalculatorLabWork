@@ -11,6 +11,11 @@ public class Calculator{
 		mul = Mul(num1 , num2);
 		sub = Sub(num1 , num2);
 
+		public static double Mul(double x , double y){
+			double result = x * y;
+			return result;
+		}
+
 		System.out.println("Addition "+add+" Subtraction "+sub+" Multiplication "+mul);
 	}
 }
