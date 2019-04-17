@@ -13,4 +13,8 @@ public class Calculator{
 
 		System.out.println("Addition "+add+" Subtraction "+sub+" Multiplication "+mul);
 	}
+	double sub(double x,double y){
+		return x-y;
+	}
+
 }
