@@ -13,4 +13,7 @@ public class Calculator{
 
 		System.out.println("Addition "+add+" Subtraction "+sub+" Multiplication "+mul);
 	}
+	public double Add(double num1, double num2) {
+		return num1+num2;
+	}
 }
