@@ -7,9 +7,9 @@ public class Calculator{
 		num1 = input.nextDouble();
 		num2 = input.nextDouble();
 
-		add = Add(num1 , num2);
-		mul = Mul(num1 , num2);
-		sub = Sub(num1 , num2);
+		double add = Add(num1 , num2);
+		double mul = Mul(num1 , num2);
+		double sub = Sub(num1 , num2);
 
 		System.out.println("Addition "+add+" Subtraction "+sub+" Multiplication "+mul);
 	}
